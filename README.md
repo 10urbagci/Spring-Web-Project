@@ -17,4 +17,4 @@
   <li>Thymeleaf</li>
 </ul>
 
-<p><a href="https://start.spring.io/">Spring Initialzr</a> was created using</p>
+<p><a href="https://start.spring.io/">Spring Initialzr</a> The project was created using</p>

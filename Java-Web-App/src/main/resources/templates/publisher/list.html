@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8"/>
+    <title>Publisher List</title>
+</head>
+<body>
+<h1>Publisher List</h1>
+
+<table>
+    <tr>
+        <th>Name</th>
+        <th>City</th>
+        <th>State</th>
+
+
+        <!--<th>Adress Line</th>
+        <th>City</th>
+        <th>State</th>
+        <th>Zip</th>-->
+    </tr>
+    <tr th:each="pub :${publisher}">
+        <td th:text="${pub.name}"> Spring in Action</td>
+        <td th:text="${pub.city}"> Spring in Action</td>
+        <td th:text="${pub.state}"> Spring in Action</td>
+        <!--<td th:text="${publisher.id}">123</td>-->
+        <!--<td th:text="${publisher.name}"> Spring in Action</td>-->
+        <!--<td th:text="${publisher.addressLine1}">Wrox</td>
+        <td th:text="${publisher.city}">Wrox</td>
+        <td th:text="${publisher.state}">Wrox</td>
+        <td th:text="${publisher.zip}">Wrox</td>-->
+    </tr>
+</table>
+
+</body>
+</html>
